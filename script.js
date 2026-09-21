@@ -60,7 +60,7 @@ window.setInterval(updateCountdown, 1000);
 let toastTimer;
 document.querySelectorAll('.pending-action').forEach((button) => {
   button.addEventListener('click', () => {
-    toast.textContent = 'Este dato estÃ¡ marcado para configurarse con la informaciÃ³n real.';
+    toast.textContent = 'Este dato está marcado para configurarse con la información real.';
     toast.classList.add('show');
     window.clearTimeout(toastTimer);
     toastTimer = window.setTimeout(() => toast.classList.remove('show'), 3200);
